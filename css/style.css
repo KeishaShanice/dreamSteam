@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ddd;
+}
+
+/* header */
+.color1 {
+    background:#29AFE5;
+}
+
+.color2 {
+    background: orange;
+}
+
+.color3 {
+    background: greenyellow;
+}
+
+.headTop {
+    width: 100%;
+    height:25px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.headBox {
+    width: 33%;
+}
+
+.fontChange {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+header {
+    width: 100%;
+}
+
+.headBottom {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headBottom h1 {
+    margin-left: 250px;
+}
+
+nav {
+    margin-right: 250px;
+}
+
+.headBottom ul {
+    margin-left:0;
+    list-style-type: none;
+}
+
+.headBottom li {
+    display: inline;
+    /* margin-right: 40px; */
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+.liBorder {
+    padding: 0 25px;
+    border-right: 1px solid black;border-left: 1px solid black;
+}
+
+.liMargin {
+    margin: 0 25px;
+}
+
+/* hero */
+.hero {
+    background: white;
+    border: 2px solid gray;
+}
+
+.heroImg {
+    height:450px;
+    width: 450px;
+    margin-left: 50px;
+}
+
+/* end hero */
+
+/* contact */
+.contact {
+    position: relative;
+    height: 100px;
+    margin: 0 100px;
+    background: black;
+    color: white;
+}
+
+.contact ul {
+    margin-left: 0;
+    list-style-type: none;
+}
+
+.contactNumber {
+    margin-left: 15px;
+    position: absolute;
+    top: 50px;
+}
+.contactNumber2 {
+    margin-left: 15px;
+    position: absolute;
+    top:70px;
+}
+
+.password {
+    position: absolute;
+    top: 25px;
+    right: 150px;
+}
+
+.contactImg1 {
+    height: 40px;
+    width: 40px;
+}
+.contactImg2 {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+/* end contact */
+
+/* news */
+.news {
+    background: white;
+    border: 2px solid gray;
+}
+
+.newsBottomTop img {
+    width: 100%;
+}
+
+.newsButton {
+    margin-top: 10px;
+    border-radius: 15px;
+    float:right;
+}
+
+.clear {
+    clear: both;
+}
+/* end news */
